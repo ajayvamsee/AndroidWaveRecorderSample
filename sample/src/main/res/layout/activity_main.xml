@@ -1,28 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ MIT License
-  ~
-  ~ Copyright (c) 2019 squti
-  ~
-  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
-  ~ of this software and associated documentation files (the "Software"), to deal
-  ~ in the Software without restriction, including without limitation the rights
-  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-  ~ copies of the Software, and to permit persons to whom the Software is
-  ~ furnished to do so, subject to the following conditions:
-  ~
-  ~ The above copyright notice and this permission notice shall be included in all
-  ~ copies or substantial portions of the Software.
-  ~
-  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-  ~ SOFTWARE.
-  -->
-
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -46,7 +22,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
-        android:text="PLAY"
+        android:text="@string/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -58,7 +34,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
-        android:text="STOP"
+        android:text="@string/stop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -69,7 +45,7 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="72dp"
-        android:text="START"
+        android:text="@string/start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -79,7 +55,7 @@
         android:id="@+id/pauseResumeRecordingButton"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:text="PAUSE"
+        android:text="@string/pause"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="@+id/startStopRecordingButton"
         app:layout_constraintStart_toStartOf="@+id/startStopRecordingButton"
@@ -90,7 +66,7 @@
         android:id="@+id/messageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press START button to recording"
+        android:text="@string/press_start_button_to_recording"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -100,7 +76,7 @@
         android:id="@+id/recordingTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Recording..."
+        android:text="@string/recording"
         android:textColor="#FF0000"
         android:textSize="40sp"
         android:visibility="gone"
@@ -123,7 +99,7 @@
         android:id="@+id/showAmplitudeLabelTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Show Amplitude"
+        android:text="@string/show_amplitude"
         app:layout_constraintBottom_toBottomOf="@+id/showAmplitudeSwitch"
         app:layout_constraintStart_toEndOf="@+id/showAmplitudeSwitch"
         app:layout_constraintTop_toTopOf="@+id/showAmplitudeSwitch" />
@@ -142,7 +118,7 @@
         android:id="@+id/noiseSuppressorTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Noise Suppressor"
+        android:text="@string/noise_suppressor"
         app:layout_constraintBottom_toBottomOf="@+id/noiseSuppressorSwitch"
         app:layout_constraintStart_toEndOf="@+id/noiseSuppressorSwitch"
         app:layout_constraintTop_toTopOf="@+id/noiseSuppressorSwitch" />
