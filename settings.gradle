@@ -1,2 +1,10 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url "https://chaquo.com/maven" }
+    }
+}
 include ':sample', ':android-wave-recorder'
 rootProject.name='Android Wave Recorder Sample'
